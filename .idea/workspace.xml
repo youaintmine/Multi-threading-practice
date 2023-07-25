@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d57797c3-f5be-4698-a58c-533b19140850" name="Changes" comment="Simulation of StudentLibrary init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/youaintmine/multithreading/philosophersexample/Chopstick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/youaintmine/multithreading/philosophersexample/Chopstick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/youaintmine/multithreading/studentlibrary/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/youaintmine/multithreading/studentlibrary/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/youaintmine/multithreading/studentlibrary/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/youaintmine/multithreading/studentlibrary/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/youaintmine/multithreading/studentlibrary/StudentLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/youaintmine/multithreading/studentlibrary/StudentLibrary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690321650245</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Simulation of StudentLibrary init">
+      <option name="closed" value="true" />
+      <created>1690321724335</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690321724335</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

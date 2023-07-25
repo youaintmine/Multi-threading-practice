@@ -25,7 +25,7 @@ public class Chopstick {
 
     public void putDown(Philosopher philosopher, State state) {
         lock.unlock();
-        System.out.println(philosopher + " puts down "+state.toString()+" "+this);
+        System.out.println(philosopher + " puts down "+state.toString()+" " +this);
     }
 
     @Override
