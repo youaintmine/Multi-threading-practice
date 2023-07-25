@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d57797c3-f5be-4698-a58c-533b19140850" name="Changes" comment="Simulation of StudentLibrary init">
+    <list default="true" id="d57797c3-f5be-4698-a58c-533b19140850" name="Changes" comment="Simulation of StudentLibrary Complete">
+      <change afterPath="$PROJECT_DIR$/src/com/youaintmine/multithreading/parallelization/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youaintmine/multithreading/philosophersexample/Chopstick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/youaintmine/multithreading/philosophersexample/Chopstick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youaintmine/multithreading/studentlibrary/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/youaintmine/multithreading/studentlibrary/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youaintmine/multithreading/studentlibrary/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/youaintmine/multithreading/studentlibrary/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/youaintmine/multithreading/studentlibrary/StudentLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/youaintmine/multithreading/studentlibrary/StudentLibrary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Philosophers_Problem" />
+        <entry key="$PROJECT_DIR$" value="Student_Library" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690321724335</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Simulation of StudentLibrary Complete">
+      <option name="closed" value="true" />
+      <created>1690324450033</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690324450034</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,6 +113,7 @@
     <MESSAGE value="Init File Philosophers Problem" />
     <MESSAGE value="Simulation of Philosopher problem Complete" />
     <MESSAGE value="Simulation of StudentLibrary init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simulation of StudentLibrary init" />
+    <MESSAGE value="Simulation of StudentLibrary Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simulation of StudentLibrary Complete" />
   </component>
 </project>
