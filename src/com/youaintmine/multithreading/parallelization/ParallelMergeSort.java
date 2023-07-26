@@ -1,12 +1,44 @@
 package com.youaintmine.multithreading.parallelization;
 
-public class MergeSort {
+public class ParallelMergeSort {
     private Integer[] nums;
     private Integer[] tmp;
 
-    public MergeSort(Integer[] nums){
+    public ParallelMergeSort(Integer[] nums){
         this.nums = nums;
         this.tmp = new Integer[nums.length];
+    }
+
+    public void parallelMergeSort(int l, int r, int numThreads) {
+        if(numThreads <=1 ) {
+            mergeSort(l, r);
+            return;
+        }
+
+        int mid = (l + r)/2;
+
+        Thread leftSorter = createThread(l, mid, numThreads);
+        Thread rightSorter = createThread(mid+1, r, numThreads);
+
+        leftSorter.start();
+        rightSorter.start();
+
+        try {
+            leftSorter.join();;
+            rightSorter.join();
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
+
+        merge(l, mid, r);
+    }
+
+    private Thread createThread(int l, int r, int numThreads) {
+        return new Thread() {
+            public void run() {
+                parallelMergeSort(l, r , numThreads/2);
+            }
+        };
     }
 
     public void sort() {

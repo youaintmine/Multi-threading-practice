@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d57797c3-f5be-4698-a58c-533b19140850" name="Changes" comment="Simulation of StudentLibrary Complete">
-      <change afterPath="$PROJECT_DIR$/src/com/youaintmine/multithreading/parallelization/MergeSort.java" afterDir="false" />
+    <list default="true" id="d57797c3-f5be-4698-a58c-533b19140850" name="Changes" comment="Parallelization MergeSort complete with this :&#10;8&#10;Time for Parallel Sorting is : 286&#10;Time for sequential mergeSort is : 741">
+      <change afterPath="$PROJECT_DIR$/src/com/youaintmine/multithreading/parallelization/ParallelSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/youaintmine/multithreading/parallelization/SumProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/youaintmine/multithreading/parallelization/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/youaintmine/multithreading/parallelization/Run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,31 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.youaintmine.multithreading.parallelization" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.youaintmine.multithreading.parallelization.Run" />
+      <module name="MultiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.youaintmine.multithreading.parallelization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Run" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -105,7 +132,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690324450034</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Parallelization MergeSort init">
+      <option name="closed" value="true" />
+      <created>1690324893153</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690324893153</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Parallelization MergeSort complete with this :&#10;8&#10;Time for Parallel Sorting is : 286&#10;Time for sequential mergeSort is : 741">
+      <option name="closed" value="true" />
+      <created>1690395447002</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690395447002</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -114,6 +157,8 @@
     <MESSAGE value="Simulation of Philosopher problem Complete" />
     <MESSAGE value="Simulation of StudentLibrary init" />
     <MESSAGE value="Simulation of StudentLibrary Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simulation of StudentLibrary Complete" />
+    <MESSAGE value="Parallelization MergeSort init" />
+    <MESSAGE value="Parallelization MergeSort complete with this :&#10;8&#10;Time for Parallel Sorting is : 286&#10;Time for sequential mergeSort is : 741" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parallelization MergeSort complete with this :&#10;8&#10;Time for Parallel Sorting is : 286&#10;Time for sequential mergeSort is : 741" />
   </component>
 </project>
