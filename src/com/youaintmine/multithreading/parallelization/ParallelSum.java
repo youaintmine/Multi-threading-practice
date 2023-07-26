@@ -28,5 +28,7 @@ public class ParallelSum {
 
         for(SumProblem w : workers)
             total += w.getPartialSum();
+
+        return total;
     }
 }
